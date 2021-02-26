@@ -3,6 +3,12 @@ activity that does not in any way accurately represent time spent doing
 software dev.  For me, this excercise was about liberating my own data and
 seeing if shadows of my life were visible in the data GitHub keeps.]_
 
+![My "contributions" as recorded by GitHub during the lifetime of my account, starting in 2009.](all.png)
+
+Last updated 2021-02-26.
+
+---
+
 I did this because I noticed two things in my GitHub contribution chart:
 
   1. Weekends are typically quiet, with the exception of an odd day here or
