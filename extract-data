@@ -1,0 +1,21 @@
+#!/usr/bin/env perl
+use 5.020;
+use strict;
+use warnings;
+use Time::Piece;
+
+# Date I created my GitHub account
+my $since = "2009-05-01";
+
+# Contributions are documented to be recorded in UTC
+my $until = gmtime->date;
+
+my @cols = qw[ date count level ];
+say join "\t", @cols;
+
+while (<<>>) {
+    say join "\t", @+{@cols}
+	    if /data-count="(?<count>\d+)" data-date="(?<date>\d{4}-\d{2}-\d{2})" data-level="(?<level>\d+)"/
+       and $+{date} ge $since
+       and $+{date} le $until;
+}
