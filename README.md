@@ -1,3 +1,8 @@
+_[GitHub's "contributions" metric is biased and a very incomplete record of
+activity that does not in any way accurately represent time spent doing
+software dev.  For me, this excercise was about liberating my own data and
+seeing if shadows of my life were visible in the data GitHub keeps.]_
+
 I did this because I noticed two things in my GitHub contribution chart:
 
   1. Weekends are typically quiet, with the exception of an odd day here or
