@@ -1,0 +1,12 @@
+body {
+  padding: 1em;
+}
+.height-full {
+  height: auto !important;
+}
+svg + div > div.float-left {
+  display: none;
+}
+.graph-before-activity-overview {
+  border: none !important;
+}
